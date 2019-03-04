@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "124962588548",
+    "firebase_url": "https://football-forum.firebaseio.com",
+    "project_id": "football-forum",
+    "storage_bucket": "football-forum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124962588548:android:32412b3fb34357ea",
+        "android_client_info": {
+          "package_name": "com.rino.ekky.footballforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124962588548-59csueu29r9um246i2eep40domulv1ci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rino.ekky.footballforum",
+            "certificate_hash": "84cbae377f723e1e0e28d4a06852f87d723f149b"
+          }
+        },
+        {
+          "client_id": "124962588548-3sfq1jgkid53navegdtf4k1pto9t8ef0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiRw8OyLLWhvKXRKZd2EEt2rH1bIX2OX8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124962588548-3sfq1jgkid53navegdtf4k1pto9t8ef0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

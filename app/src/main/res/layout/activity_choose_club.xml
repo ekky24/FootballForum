@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ChooseClubActivity">
+
+    <Spinner
+        android:id="@+id/spinner_league"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/league_name"
+        style="@android:style/Widget.Holo.Light.Spinner"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_club"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinner_league"
+        android:layout_marginTop="16dp"
+        tools:listitem="@layout/club_choose_item"/>
+
+</RelativeLayout>

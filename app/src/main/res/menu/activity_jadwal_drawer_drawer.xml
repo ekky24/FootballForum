@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/jadwal_finished"
+            android:icon="@drawable/ic_finished"
+            android:title="Finished" />
+        <item
+            android:id="@+id/jadwal_live"
+            android:icon="@drawable/ic_live"
+            android:title="Live" />
+        <item
+            android:id="@+id/jadwal_scheduled"
+            android:icon="@drawable/ic_scheduled"
+            android:title="Scheduled" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/change_club"
+                android:icon="@drawable/ic_settings"
+                android:title="Change Club" />
+            <item
+                android:id="@+id/signout"
+                android:icon="@drawable/ic_signout"
+                android:title="Signout" />
+        </menu>
+    </item>
+
+</menu>
